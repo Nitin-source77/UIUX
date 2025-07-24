@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Interiors - Refined Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="leading-relaxed">
+    <nav id="navbar" class="navbar navbar-expand-lg py-4 navbar-custom fixed-top w-full">
+        <div class="container mx-auto flex justify-between items-center px-4 md:px-0">
+
+            <a class="navbar-brand" href="#hero">Elite Interiors</a>
+
+
+            <button class="navbar-toggler lg:hidden focus:outline-none border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse lg:flex lg:justify-center" id="navbarNav">
+                <ul class="navbar-nav space-y-3 lg:space-y-0 lg:space-x-8 mt-3 lg:mt-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="hero" class="hero-section" style="background-image: url('images/studio2.png')">
+        <div class="hero-overlay"></div>
+        <div class="relative z-10 px-4 max-w-4xl" data-aos="fade-up" data-aos-duration="1200" style="margin-top: 17%;">
+            <h1 class="text-6xl md:text-7xl font-bold mb-6 leading-tight">Transform Your Space with Timeless Design.
+            </h1>
+            <p class="text-xl md:text-2xl mb-10 font-light">Award-winning interior design studio, crafting bespoke
+                environments.</p>
+            <a href="#contact" class="btn btn-outline-custom text-lg">Book Consultation</a>
+        </div>
+    </section>
+
+
+    <section id="about" class="py-24 bg-section-light">
+        <div class="container mx-auto px-4 md:px-0">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="relative overflow-hidden rounded-lg shadow-xl" data-aos="fade-right"
+                    data-aos-duration="2000">
+                    <img src="images/studio3.png"
+                        alt="Interior designer sketching in a studio" class="w-full h-auto object-cover rounded-lg">
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    <h2 class="text-5xl font-bold mb-8 text-center lg:text-left">About Our Studio</h2>
+                    <p class="text-lg mb-6 text-gray-700 leading-relaxed">
+                        At Elite Interiors, we are driven by the belief that exceptional design can profoundly elevate
+                        everyday living. Our studio is dedicated to crafting bespoke spaces that blend unparalleled
+                        aesthetics with practical functionality, tailored precisely to our clients' unique aspirations.
+                    </p>
+                    <p class="text-lg mb-6 text-gray-700 leading-relaxed">
+                        With a meticulous approach to every project, from initial concept to final installation, our
+                        team of seasoned designers ensures a seamless and enjoyable journey. We pride ourselves on our
+                        collaborative spirit, attention to detail, and a commitment to timeless elegance that defines
+                        every Elite Interiors creation.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        Specializing in high-end residential and sophisticated commercial interiors, we transform
+                        visions into inspiring realities, creating environments that resonate with soul and style.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-section-dark">
+        <div class="container mx-auto px-4 md:px-0 text-center">
+            <h2 class="text-5xl font-bold mb-16 text-center" data-aos="fade-up">Our Expertise</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <div class="service-card bg-white p-8 rounded-lg shadow-md" data-aos="zoom-in" data-aos-duration="700">
+                    <i class="fas fa-home text-5xl mb-6"></i>
+                    <h3 class="text-2xl font-semibold mb-3 text-gray-800">Residential Design</h3>
+                    <p class="text-gray-600 leading-relaxed">Crafting personalized and luxurious living spaces, from
+                        cozy apartments to expansive estates.</p>
+                </div>
+
+                <div class="service-card bg-white p-8 rounded-lg shadow-md" data-aos="zoom-in" data-aos-duration="700"
+                    data-aos-delay="100">
+                    <i class="fas fa-briefcase text-5xl mb-6"></i>
+                    <h3 class="text-2xl font-semibold mb-3 text-gray-800">Commercial Interiors</h3>
+                    <p class="text-gray-600 leading-relaxed">Designing functional, inspiring, and brand-aligned
+                        environments for businesses.</p>
+                </div>
+
+                <div class="service-card bg-white p-8 rounded-lg shadow-md" data-aos="zoom-in" data-aos-duration="700"
+                    data-aos-delay="200">
+                    <i class="fas fa-drafting-compass text-5xl mb-6"></i>
+                    <h3 class="text-2xl font-semibold mb-3 text-gray-800">Space Planning & Layout</h3>
+                    <p class="text-gray-600 leading-relaxed">Optimizing spatial arrangements for flow, comfort, and
+                        aesthetic harmony.</p>
+                </div>
+
+                <div class="service-card bg-white p-8 rounded-lg shadow-md" data-aos="zoom-in" data-aos-duration="700"
+                    data-aos-delay="300">
+                    <i class="fas fa-palette text-5xl mb-6"></i>
+                    <h3 class="text-2xl font-semibold mb-3 text-gray-800">Finishing & Furnishing</h3>
+                    <p class="text-gray-600 leading-relaxed">Selecting exquisite materials, furniture, and decor to
+                        perfect every detail.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="portfolio" class="py-24 bg-section-light">
+        <div class="container mx-auto px-4 md:px-0 text-center">
+            <h2 class="text-5xl font-bold mb-16 text-center" data-aos="fade-up">Our Latest Projects</h2>
+            <div class="masonry-grid" data-aos="fade-up" data-aos-delay="500">
+
+                <div class="masonry-item" data-bs-toggle="modal" data-bs-target="#portfolioModal"
+                    data-img-src="images/living room.webp">
+                    <img src="images/living room.webp"
+                        alt="Minimalist living room project">
+                    <div class="overlay-text">Elegant Living</div>
+                </div>
+
+                <div class="masonry-item" data-bs-toggle="modal" data-bs-target="#portfolioModal"
+                    data-img-src="images/bathroom.webp">
+                    <img src="images/bathroom.webp"
+                        alt="Modern boutique bedroom">
+                    <div class="overlay-text">Serene Retreat</div>
+                </div>
+
+                <div class="masonry-item" data-bs-toggle="modal" data-bs-target="#portfolioModal"
+                    data-img-src="images/kit.avif">
+                    <img src="images/kit.avif"
+                        alt="Contemporary open-plan kitchen">
+                    <div class="overlay-text">Culinary Haven</div>
+                </div>
+
+                <div class="masonry-item" data-bs-toggle="modal" data-bs-target="#portfolioModal"
+                    data-img-src="images/spa.avif">
+                    <img src="images/spa.avif"
+                        alt="Luxurious spa bathroom">
+                    <div class="overlay-text">Spa Sanctuary</div>
+                </div>
+
+                <div class="masonry-item" data-bs-toggle="modal" data-bs-target="#portfolioModal"
+                    data-img-src="images/office.webp">
+                    <img src="images/office.webp"
+                        alt="Executive corporate office">
+                    <div class="overlay-text">Productive Spaces</div>
+                </div>
+
+                <div class="masonry-item" data-bs-toggle="modal" data-bs-target="#portfolioModal"
+                    data-img-src="images/dining.webp">
+                    <img src="images/dining.webp"
+                        alt="Minimalist Scandinavian dining room">
+                    <div class="overlay-text">Gathering Place</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="modal fade" id="portfolioModal" tabindex="-1" aria-labelledby="portfolioModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content rounded-lg shadow-2xl">
+                <div class="modal-body p-0">
+                    <img id="modalImage" src="" class="w-full h-auto rounded-lg" alt="Portfolio Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="testimonials" class="py-24 bg-section-dark">
+        <div class="container mx-auto px-4 md:px-0 text-center">
+            <h2 class="text-5xl font-bold mb-16 text-center" data-aos="fade-up">What Our Esteemed Clients Say</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up"
+                data-aos-delay="200">
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner max-w-4xl mx-auto">
+
+                    <div class="carousel-item active">
+                        <div class="testimonial-card">
+                            <p class="text-xl italic mb-6 text-gray-700 leading-relaxed">
+                                "Elite Interiors exceeded our wildest expectations. Their team masterfully blended our
+                                personal style with sophisticated design principles, creating a home that feels both
+                                luxurious and incredibly inviting. An absolutely seamless and delightful experience!"
+                            </p>
+                            <p class="font-semibold text-gray-800 text-lg"> Encore abj</p>
+                            <div class="flex justify-center mt-3 text-yellow-400">
+                                <i class="fas fa-star text-xl mx-0.5"></i>
+                                <i class="fas fa-star text-xl mx-0.5"></i>
+                                <i class="fas fa-star text-xl mx-0.5"></i>
+                                <i class="fas fa-star text-xl mx-0.5"></i>
+                                <i class="fas fa-star text-xl mx-0.5"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <p class="text-xl italic mb-6 text-gray-700 leading-relaxed">
+                                "Our office space needed a complete overhaul to reflect our innovative brand. Elite
+                                Interiors delivered a design that is not only visually stunning but also highly
+                                functional, boosting our team's productivity and morale. Truly exceptional work!"
+                            </p>
+                            <p class="font-semibold text-gray-800 text-lg">- Dillin Nair</p>
+                            <div class="flex justify-center mt-3 text-yellow-400">
+                                <i class="fas fa-star text-xl mx-0.5"></i>
+                                <i class="fas fa-star text-xl mx-0.5"></i>
+                                <i class="fas fa-star text-xl mx-0.5"></i>
+                                <i class="fas fa-star text-xl mx-0.5"></i>
+                                <i class="fas fa-star-half-alt text-xl mx-0.5"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <p class="text-xl italic mb-6 text-gray-700 leading-relaxed">
+                                "From our very first meeting, it was clear we were in expert hands. Elite Interiors
+                                brought a level of creativity and professionalism that transformed our new property into
+                                a true masterpiece. Every detail was thoughtfully considered and executed flawlessly."
+                            </p>
+                            <p class="font-semibold text-gray-800 text-lg">- Tanishq</p>
+                            <div class="flex justify-center mt-3 text-yellow-400">
+                                <i class="fas fa-star text-xl mx-0.5"></i>
+                                <i class="fas fa-star text-xl mx-0.5"></i>
+                                <i class="fas fa-star text-xl mx-0.5"></i>
+                                <i class="fas fa-star text-xl mx-0.5"></i>
+                                <i class="fas fa-star text-xl mx-0.5"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"><i
+                            class="fas fa-chevron-left"></i></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"><i
+                            class="fas fa-chevron-right"></i></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="py-24 bg-section-light">
+        <div class="container mx-auto px-4 md:px-0">
+            <h2 class="text-5xl font-bold mb-16 text-center" data-aos="fade-up">Let's Create Together</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+
+                <div class="bg-white p-10 rounded-lg shadow-xl" data-aos="fade-right" data-aos-duration="1000">
+                    <h3 class="text-3xl font-semibold mb-8 text-gray-800">Schedule Your Consultation</h3>
+                    <form class="needs-validation" novalidate>
+                        <div class="mb-5">
+                            <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Your Full Name" required>
+                            <div class="invalid-feedback">
+                                Please enter your name.
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="your.email@example.com"
+                                required>
+                            <div class="invalid-feedback">
+                                Please enter a valid email address.
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <label for="phone" class="block text-gray-700 text-sm font-bold mb-2">Phone
+                                (Optional)</label>
+                            <input type="tel" id="phone" class="form-control" placeholder="vaild number">
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message</label>
+                            <textarea id="message" rows="6" class="form-control"
+                                placeholder="Tell us about your project..." required></textarea>
+                            <div class="invalid-feedback">
+                                Please tell us about your project.
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-outline-custom w-full text-lg">Send Message</button>
+                    </form>
+                </div>
+
+
+                <div class="rounded-lg shadow-xl overflow-hidden bg-white p-10" data-aos="fade-left"
+                    data-aos-duration="1000">
+                    <h3 class="text-3xl font-semibold mb-8 text-gray-800">Find Our Studio</h3>
+                    <div class="w-full mb-8 rounded-lg overflow-hidden">
+                        <iframe
+                            src="https://www.google.com/maps/embed/v1/place?q=arena+animation+preet+vihar&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div class="text-gray-700">
+                        <p class="mb-3"><i class="fas fa-map-marker-alt text-accent-gold mr-3"></i> 123 Arena Animation,
+                            Delhi</p>
+                        <p class="mb-3"><i class="fas fa-envelope text-accent-gold mr-3"></i> info@eliteinteriors.com
+                        </p>
+                        <p class="mb-3"><i class="fas fa-phone-alt text-accent-gold mr-3"></i> +91 9999999999</p>
+                        <p class="mb-3"><i class="fas fa-clock text-accent-gold mr-3"></i> Mon - Fri: 9:00 AM - 6:00 PM
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="container mx-auto px-4 md:px-0 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-12">
+
+            <div>
+                <h4 class="text-2xl font-bold mb-6 text-accent-gold">Elite Interiors</h4>
+                <p class="text-gray-400 mb-3 leading-relaxed">
+                    Crafting spaces that inspire and delight. Your vision, our design expertise.
+                </p>
+                <div class="flex space-x-5 mt-6">
+                    <a href="#" class="text-gray-400 hover:text-accent-gold transition duration-300 text-2xl"
+                        aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-accent-gold transition duration-300 text-2xl"
+                        aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-accent-gold transition duration-300 text-2xl"
+                        aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-accent-gold transition duration-300 text-2xl"
+                        aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+
+
+            <div>
+                <h4 class="text-xl font-bold mb-6">Explore</h4>
+                <ul class="space-y-3 pl-0 list-none">
+                    <li><a href="#hero" class="text-gray-400 hover:text-accent-gold transition duration-300 no-underline">Home</a>
+                    </li>
+                    <li><a href="#about" class="text-gray-400 hover:text-accent-gold transition duration-300 no-underline">About
+                            Us</a></li>
+                    <li><a href="#services"
+                            class="text-gray-400 hover:text-accent-gold transition duration-300 no-underline">Services</a></li>
+                    <li><a href="#portfolio"
+                            class="text-gray-400 hover:text-accent-gold transition duration-300 no-underline">Portfolio</a></li>
+                    <li><a href="#testimonials"
+                            class="text-gray-400 hover:text-accent-gold transition duration-300 no-underline">Testimonials</a></li>
+                    <li><a href="#contact"
+                            class="text-gray-400 hover:text-accent-gold transition duration-300no-underline">Contact</a></li>
+                </ul>
+            </div>
+
+
+            <div class="md:col-span-1 lg:col-span-1">
+                <h4 class="text-xl font-bold mb-6">Our Services</h4>
+                <ul class="space-y-3 pl-0 list-none">
+                    <li><a href="#services"
+                            class="text-gray-400 hover:text-accent-gold transition duration-300 no-underline">Residential Design</a>
+                    </li>
+                    <li><a href="#services"
+                            class="text-gray-400 hover:text-accent-gold transition duration-300 no-underline">Commercial
+                            Interiors</a></li>
+                    <li><a href="#services" class="text-gray-400 hover:text-accent-gold transition duration-300 no-underline">Space
+                            Planning</a></li>
+                    <li><a href="#services" class="text-gray-400 hover:text-accent-gold transition duration-300 no-underline">Custom
+                            Furnishing</a></li>
+                    <li><a href="#services"
+                            class="text-gray-400 hover:text-accent-gold transition duration-300 no-underline">Lighting Solutions</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-xl font-bold mb-6">Get in Touch</h4>
+                <p class="text-gray-400 mb-3"><i class="fas fa-map-marker-alt text-accent-gold mr-3"></i> 123 Arena
+                    Animation, Delhi</p>
+                <p class="text-gray-400 mb-3"><i class="fas fa-envelope text-accent-gold mr-3"></i>
+                    info@eliteinteriors.com</p>
+                <p class="text-gray-400 mb-3"><i class="fas fa-phone-alt text-accent-gold mr-3"></i> +91 9999999999</p>
+                <p class="text-gray-400 mb-3"><i class="fas fa-clock text-accent-gold mr-3"></i> Mon-Fri: 9am - 6pm</p>
+            </div>
+        </div>
+        <div class="text-center text-gray-500 text-sm mt-12 border-t border-gray-700 pt-8">
+            &copy; <span id="current-year"></span> Elite Interiors. All rights reserved.
+        </div>
+    </footer>
+
+
+    <button id="back-to-top" title="Go to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+
+        AOS.init({
+            once: true,
+            duration: 1000,
+            easing: 'ease-out-quad',
+            offset: 120,
+        });
+
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+
+                var navbarCollapse = document.getElementById('navbarNav');
+                var bsCollapse = new bootstrap.Collapse(navbarCollapse, { toggle: false });
+                if (navbarCollapse.classList.contains('show')) {
+                    bsCollapse.hide();
+                }
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        window.addEventListener('scroll', function () {
+            var navbar = document.getElementById("navbar");
+            if (window.scrollY > 80) {
+                navbar.classList.add("navbar-sticky");
+            } else {
+                navbar.classList.remove("navbar-sticky");
+            }
+        });
+
+
+        var backToTopButton = document.getElementById("back-to-top");
+
+        window.addEventListener('scroll', function () {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                backToTopButton.style.display = "flex";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        });
+
+        backToTopButton.addEventListener("click", function () {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        });
+
+
+        var portfolioModal = document.getElementById('portfolioModal');
+        portfolioModal.addEventListener('show.bs.modal', function (event) {
+
+            var button = event.relatedTarget;
+
+            var imgSrc = button.getAttribute('data-img-src');
+
+            var modalImage = portfolioModal.querySelector('#modalImage');
+            modalImage.src = imgSrc;
+        });
+
+
+        (function () {
+            'use strict';
+            var forms = document.querySelectorAll('.needs-validation');
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+        })();
+
+
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    </script>
+</body>
+
+</html>
